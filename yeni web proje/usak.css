@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    font-family: 'TRT';
+    transition: all .6s;
+}
+  
+html {
+    scroll-behavior: smooth !important;
+}
+.navbar{
+    background-color: #0f263e;
+    height: 100px;
+}
+.navbar-brand:hover{
+    filter: drop-shadow(0 0 1.1rem rgb(20, 143, 220));
+}
+
+.carousel-item {
+	height: 120vh;
+	min-height: 500px;
+}
+header h1{
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.collapse{
+    background-color: #0f263e;
+    text-align: center;
+    border-radius: 15px;
+    z-index: 5;
+}
+.konu1{
+    background-color: #fffdf2;
+}
+.konu2{
+    background-color: #98D8AA;
+}
+.konu3{
+    background-color: #fffdf2;
+}
+.konu4{
+    background-color: #98D8AA;
+}
+.konu5{
+    background-color: #fffdf2;
+}
+.github a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 32px;
+}
+footer{
+    background-color: #0f263e;
+}
+@media only screen and (min-width:768px) and (max-width:1023px){
+    .navbar{
+        font-size: 12px!important;
+    }
+}
